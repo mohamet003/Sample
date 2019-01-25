@@ -5,7 +5,7 @@ import javax.sql.DataSource;
 public class DataSourceFactory {
     
     	public static DataSource getDataSource() {
-		org.apache.derby.jdbc.ClientDataSource ds = new org .apache.derby.jdbc.ClientDataSource();
+		org.apache.derby.jdbc.ClientDataSource ds = new org.apache.derby.jdbc.ClientDataSource();
 		ds.setDatabaseName("sample");
 		ds.setUser("app");
 		ds.setPassword("app");
